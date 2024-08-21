@@ -1,0 +1,190 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    /* background-color: #972727; */
+    margin: 0;
+    padding: 0;
+}
+
+.mainContainer {
+    /* background-color: rgb(0, 248, 112); */
+    flex: 1;
+    /* height: 100vh; */
+    display: flex; /* Flexbox layout */
+    flex-direction: row; /* Ensure direction is row (default, but explicitly stated) */
+}
+
+.leftContainer {
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    flex: 1; 
+}
+
+.rightContainer {
+    background-color:white;
+    flex: 1; /* Takes equal space with the leftContainer */
+    display: flex;
+    flex-direction: column;
+}
+
+.titleContainer {
+   
+    /* background-color: aqua; */
+    padding: 0 50px 0 50px;
+    height: 100px;
+    z-index: 2;
+    flex: 1;
+    
+}
+
+.titleContainer h1 {
+    /* background-color: red; */
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-weight: 400;
+
+}
+
+.titleContainer h2 {
+    margin: 0;
+    padding: 0;
+    /* background-color: blanchedalmond; */
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.titleContainer h4 {
+    margin: 0;
+    padding: 0;
+    /* background-color: blanchedalmond; */
+    font-size: 10px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.contactContainer {
+    background-color: rgb(255, 255, 255);
+    flex: 1;
+}
+
+.contactContainer p{
+    font-size:10px ;
+    padding: 0;
+    margin-left:35px;
+    margin: top 10px; 
+}
+
+.skillContainer {
+    background-color:white;
+    flex: 1;
+}
+
+.skillContainer p{
+    font-size:13px;
+    padding-top: 5px 0 5px 0 ;
+    margin-left:35px;
+    font-weight:700;
+}
+.skillContainer li{
+    font-size:12px ;
+    margin-left:40px;
+}
+
+.headerContainer {
+    background-color: #333; /* Changed to a slightly lighter color for contrast */
+    width: 70%;
+    border-top-right-radius: 20px;/*  Increased the radius */
+    border-bottom-right-radius: 20px;
+    margin: 0;
+    /* padding: 10px; */
+    /* padding: 10px; Added padding to give some space inside the container */
+    border: 0px solid #333; 
+    margin-left: 15px;
+    margin: 5px 0 5px 0px;
+}
+
+.childContainer {
+    background-color:white;
+     
+}
+
+
+
+
+.rightHeaderContainer {
+  background-color: #333; /* Changed to a slightly lighter color for contrast */
+    width: 70%;
+    height: 25px;
+
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 20px;/*  Increased the radius */
+    border-bottom-left-radius: 20px;
+    margin: 0;
+    /* padding: 10px; */
+    /* padding: 10px; Added padding to give some space inside the container */
+    border: 0px solid #333; 
+    margin-left: 15px;
+    margin: 5px 0 5px 0px;
+}
+
+.header {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin-left: 10px; /* Reduced margin for better alignment */
+    margin-top: 0;
+    color: white;
+   
+}
+
+.rightContainer p{
+    flex-direction: row;
+    font-size:13px;
+    padding-top: 5px 0 5px 0 ;
+    margin-left:15px;
+    font-weight:700;
+    margin-top:8px;
+    margin-bottom:9px;
+   
+
+}
+.rightContainer li{
+    font-size:8px ;
+    padding: 0;
+    margin-left:35px;
+
+     }
+
+.rightContainer ol{
+    font-size:8px ;
+    margin-left:0px;
+    font-weight:700;
+    margin-top:5px;
+    margin-bottom:5px;
+    
+}
+.rightContainer h2{
+    font-size:12px ;
+    font-style: italic;
+    margin-left:15px;
+    font-weight:700;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.rightContainer h3{
+    font-size:10px ;
+    margin-left:15px;
+    font-weight:700;
+    margin-top:2px;
+    margin-bottom:2px;
+    
+}
+
+
+
